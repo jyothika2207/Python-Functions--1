@@ -56,3 +56,18 @@ Enter your name:  jyothika koliki
 welcome jyothika koliki
 
 
+
+
+
+
+
+a=100
+def value(a):
+    return a+20
+op=value(a)
+print(op)
+
+--------OUTPU--------
+    120
+
+
