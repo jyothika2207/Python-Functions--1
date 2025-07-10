@@ -90,3 +90,17 @@ Enter data jyothika
 Hello jyothika
 
 
+
+def hi(name='Guest'):
+    print("Hello",name)
+a=input("Enter data")
+hi()
+hi(a)
+
+-----OUTPUT-----
+Enter data jyothika
+Hello Guest
+Hello jyothika
+
+
+
