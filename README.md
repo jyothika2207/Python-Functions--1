@@ -104,3 +104,27 @@ Hello jyothika
 
 
 
+
+
+def cal(a,b):
+    return a+b,a-b,a*b,a/b
+a=int(input("enter a:"))
+b=int(input("enter b:"))
+sum,diff,pro,div=cal(a,b)
+print("sum=",sum)
+print("Subtract=",diff)
+print("product=",pro)
+print("divide=",div)
+
+------OUTPUT------
+enter a: 34
+enter b: 22
+sum= 56
+Subtract= 12
+product= 748
+divide= 1.5454545454545454
+
+
+
+
+
