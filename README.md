@@ -26,3 +26,18 @@ add(student1, student2)
 enter the money: 345
 enter the money: 890
 Total: 1235
+
+
+
+
+def value():
+    return 3.14159
+result=value()
+print("value in the function is",result)
+
+
+
+------OUTPUT-------
+value in the function is 3.14159
+
+
