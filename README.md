@@ -28,6 +28,14 @@ enter the money: 890
 Total: 1235
 
 
+def hi(name):
+    print("Hello",name)
+hi("Jyothika")
+
+-----OUTPUT-----
+Hello Jyothika
+
+
 
 
 def value():
