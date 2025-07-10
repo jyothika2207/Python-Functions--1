@@ -125,6 +125,49 @@ product= 748
 divide= 1.5454545454545454
 
 
+# Python-Functions-maximum and minimum
+def max_min(a,b,c):
+    return max(a,b,c),min(a,b,c)
+a=int(input("enter a:"))
+b=int(input("enter b:"))
+c=int(input("enter c:"))
+maxi,mini=max_min(a,b,c)
+print("maximum:",maxi)
+print("minimum:",mini)
+
+------OUTPUT-------
+enter a: 4
+enter b: 7
+enter c: 9
+maximum: 9
+minimum: 4
+
+
+
+
+def eo(numbers):
+    e=0
+    o=0
+    for n in numbers:
+        if n % 2==0:
+            e+=1
+        else:
+            o+=1
+    return e,o
+num=input("enter the number as space seperated")
+num_list=list(map(int,num.split()))
+e,o=eo(num_list)
+print("Even count:",e)
+print("Odd count:",o)
+
+------OUTPUT---------
+enter the number as space seperated 4 7 2 3 11 18 54 67 80
+Even count: 5
+Odd count: 4
+
+    
+
+
 
 
 
