@@ -41,3 +41,17 @@ print("value in the function is",result)
 value in the function is 3.14159
 
 
+
+
+
+
+
+
+
+
+
+
+Enter your name:  jyothika koliki
+welcome jyothika koliki
+
+
