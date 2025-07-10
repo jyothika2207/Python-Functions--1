@@ -75,7 +75,18 @@ def value(a):
 op=value(a)
 print(op)
 
---------OUTPU--------
+--------OUTPUT--------
     120
+
+
+
+    def hi(name):
+    print("Hello",name)
+a=input("Enter data")
+hi(a)
+
+-----OUTPUT------
+Enter data jyothika
+Hello jyothika
 
 
