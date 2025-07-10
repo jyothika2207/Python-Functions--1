@@ -44,13 +44,14 @@ value in the function is 3.14159
 
 
 
+def get_name():
+    name=input("enter your name:")
+    return name
+username=get_name()
+print("welcome",username)
 
 
-
-
-
-
-
+-------OUTPUT---------
 Enter your name:  jyothika koliki
 welcome jyothika koliki
 
