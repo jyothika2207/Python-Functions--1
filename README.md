@@ -144,7 +144,7 @@ minimum: 4
 
 
 
-
+# Python-Functions-EVEN COUNT AND ODD COUNT    
 def eo(numbers):
     e=0
     o=0
@@ -160,7 +160,7 @@ e,o=eo(num_list)
 print("Even count:",e)
 print("Odd count:",o)
 
-------OUTPUT---------
+------  OUTPUT---------
 enter the number as space seperated 4 7 2 3 11 18 54 67 80
 Even count: 5
 Odd count: 4
